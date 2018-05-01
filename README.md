@@ -22,5 +22,5 @@
 **Related Patterns**
 
 - [Abstract Factory](https://github.com/andreidana/AbstractFactoryExample)
-- Composite
-- Decorator
+- [Composite](https://github.com/andreidana/CompositePattern)
+- [Decorator](https://github.com/andreidana/DecoratorPattern)

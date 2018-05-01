@@ -42,8 +42,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Door\Door.cs" />
+    <Compile Include="Door\IPrototypeDoor.cs" />
+    <Compile Include="Door\LockedDoor.cs" />
+    <Compile Include="MazePrototypeFactory.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Room\EnchantedRoom.cs" />
+    <Compile Include="Room\IPrototypeRoom.cs" />
+    <Compile Include="Room\Room.cs" />
+    <Compile Include="Wall\BombedWall.cs" />
+    <Compile Include="Wall\IPrototypeWall.cs" />
+    <Compile Include="Wall\Wall.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
