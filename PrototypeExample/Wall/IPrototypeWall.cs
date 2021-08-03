@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace PrototypeExample.Wall
+﻿namespace PrototypeExample.Wall
 {
     public interface IPrototypeWall
     {

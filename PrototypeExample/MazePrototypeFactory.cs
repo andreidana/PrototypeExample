@@ -6,9 +6,9 @@ namespace PrototypeExample
 {
     public class MazePrototypeFactory
     {
-        private IPrototypeWall _wall;
-        private IPrototypeRoom _room;
-        private IPrototypeDoor _door;
+        private readonly IPrototypeWall _wall;
+        private readonly IPrototypeRoom _room;
+        private readonly IPrototypeDoor _door;
 
         public MazePrototypeFactory(IPrototypeWall wall, IPrototypeRoom room, IPrototypeDoor door)
         {

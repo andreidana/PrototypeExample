@@ -1,12 +1,10 @@
-﻿using System;
-
-namespace PrototypeExample
+﻿namespace PrototypeExample
 {
     internal class Program
     {
-        static void Main(string[] args)
+        private static void Main()
         {
-            var mazePrototypeFactory = new MazePrototypeFactory(new Wall.Wall(), new Room.Room(), new Door.Door());
+            var _ = new MazePrototypeFactory(new Wall.Wall(), new Room.Room(), new Door.Door());
         }
     }
 }
